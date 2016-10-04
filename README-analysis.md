@@ -6,6 +6,8 @@ Before everything:
 Install the following packages:
 
     sudo apt-get install lynx
+    sudo apt-get install memcached
+    sudo apt-get install libmemcached-dev
 
 You need at least version 3.8.3 of sqlite. If you get
 `sqlite3.OperationalError: near "WITH": syntax error`
@@ -18,6 +20,7 @@ you need a newer version. Do this:
 The console based browser is used for the automated tests.
 
     sudo python2 -m pip install texttest
+    sudo python3 -m pip install -r requirements.txt
 
 In the checkout directory, do the following (this is only needed once):
 

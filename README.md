@@ -42,6 +42,10 @@ Gocddash is different than buildreactor in several ways:
  - It needs to be installed and run on some server...
  - It has plenty of themes.
 
+## Configuration
+
+You will need a file 'application.cfg' in the folder 'gocddash', and also a 'pipelines.json' in the same folder. There are example files provided there for you to look at.
+
 ## Usage
 
     usage: app.py [-h] [-s SERVER] [-u USER] [-p PASSWD] [-d] [-c {1,2,3,4}]
